@@ -31,7 +31,6 @@ export default function App() {
               path={routePaths.toDoUpdate}
               component={Components.ToDoUpdate}
             />
-            <Route component={Components.PageNotFound} />
           </Switch>
         </Router>
       </Suspense>
